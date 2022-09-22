@@ -1,7 +1,7 @@
 pipeline {
   environment {
-    imagename = "yenigul/hacicenkins"
-    registryCredential = 'yenigul-dockerhub'
+    imagename = "surendradockerhubreg/hashedin"
+    registryCredential = 'docker'
     dockerImage = ''
   }
   agent any
